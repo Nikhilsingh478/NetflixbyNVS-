@@ -294,7 +294,7 @@ footer{
 }
 
 
-@media  screen and (max-width: 400px){
+@media  screen and (max-width: 450px){
     .footer{
         display: grid;
         grid-template-columns: 1fr 1fr; 
