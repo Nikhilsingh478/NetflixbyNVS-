@@ -345,5 +345,10 @@ footer{
   footer{
     max-width: 90vw;
   }
+    .main nav img{
+    width:90px;
+    margin:10px;
+    margin-right: 20px;
+    }
   
 }
