@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.css">
 </head>
 
 <body>
-  <div class="main">
+ <div data-scroll-container>
+    <div class="main">
     <nav>
       <span><img width="53" src="logo.svg" alt=""></span>
       <div>
@@ -172,6 +174,16 @@
     </div>
   </div>
   </footer>
+ </div>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const scroll = new LocomotiveScroll({
+      el: document.querySelector('[data-scroll-container]'),
+      smooth: true
+    });
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
 </body>
 
 </html>
